@@ -166,7 +166,9 @@ def merge_runs(run_files, output_file="sorted.txt"):
 # arr = list(map(int, input("Введите последовательность чисел через пробел").split()))
 # print(f"Отсортированный массив: {lab10(arr)}")
 
-# Пример внешней многофазной сортировки
+# Пример внешней многофазной сортировки. N - размер данных, M — размер, помещающийся в память, K = N / M — количество серий
+# Фаза 1: O(Nlog(M)), Фаза 2: O(Nlog(K)) (потому что это K-путевое слияние)
 runs = create_runs("input.txt", chunk_size=5)
 print(runs)
+
 merge_runs(runs, "sorted.txt")
