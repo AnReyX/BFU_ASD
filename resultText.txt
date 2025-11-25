@@ -1,0 +1,53 @@
+=== Хеш-таблица с наложением (open addressing) ===
+0: consectetur
+1: подобрать
+2: не
+3: aliqua.
+4: какой
+5: dolore
+6: None
+7: None
+8: None
+9: None
+10: None
+11: adipiscing
+12: do
+13: None
+14: None
+15: None
+16: sit
+17: et
+18: None
+19: None
+20: None
+21: None
+22: знаю,
+23: tempor
+24: dolor
+25: для
+26: примера.
+27: amet,
+28: incididunt
+29: labore
+30: текст
+31: Я
+32: Lorem
+33: ut
+34: elit,
+35: None
+36: magna
+37: sed
+38: eiusmod
+39: ipsum
+
+=== Хеш-таблица со списками (chaining) ===
+0: []
+1: ['Lorem', 'adipiscing', 'do', 'Я']
+2: ['не', 'знаю,', 'для', 'примера.']
+3: ['tempor', 'ut', 'aliqua.', 'какой']
+4: ['dolor', 'elit,']
+5: ['dolore']
+6: ['sit', 'sed', 'magna']
+7: ['amet,', 'incididunt', 'et']
+8: ['ipsum', 'eiusmod', 'текст', 'подобрать']
+9: ['consectetur', 'labore']
